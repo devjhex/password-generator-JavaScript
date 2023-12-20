@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Jester Generator</title>
+
+    <style>
+        input[type="range"]::-webkit-slider-thumb {
+            appearance: none;
+            background-color: #F8EF00;
+            height: 2rem;
+            width: 2rem;
+            border-radius:50%;
+            transition: all .5s;
+            border: 2px solid transparent;
+        }
+        input[type="range"]::-webkit-slider-thumb:hover{
+            background-color: black;
+            border-color:#F8EF00;
+        }
+    </style>
+</head>
+<body class="bg-black md:flex items-center justify-center">
+    <div class="md:max-w-[1000px] md:mx-auto lg:flex lg:gap-[9rem] root">
+    </div>
+    <script src="controller/controller.js" type="module">
+    </script>
+</body>
+</html>
